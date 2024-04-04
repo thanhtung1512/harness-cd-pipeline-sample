@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_thanhtung1512_harness_cd_pipeline_sample_1712215039615-push-trigger-input-set
+  identifier: Build_thanhtung1512_harness_cd_pipeline_sample_1712215039615pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Onboarding_Project
+  pipeline:
+    identifier: Build_thanhtung1512_harness_cd_pipeline_sample_1712215039615
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
